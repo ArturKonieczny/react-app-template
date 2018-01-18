@@ -28,7 +28,7 @@
     "css-loader": "^0.28.7",
     "eslint": "^4.6.1",
     "eslint-config-qb": "^1.0.0",
-    "eslint-plugin-react": "^7.3.0",
+    "eslint-plugin-react": "^7.5.1",
     "extract-text-webpack-plugin": "^2.1.2",
     "file-loader": "^0.11.2",
     "html-webpack-plugin": "^2.30.1",
