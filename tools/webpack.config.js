@@ -61,6 +61,13 @@ const config = {
         use: extractSass.extract({
           use: [{
             loader: 'css-loader'
+          },{
+            loader: 'postcss-loader',
+            options: {
+              plugins: function () {
+                return [autoprefixer]
+              }
+            }
           }, {
             loader: 'sass-loader'
           }],
